@@ -1,0 +1,38 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% README: Matlab code for DeltaCon graph similarity                       %
+%                                                                         %
+% Author: Danai Koutra                                                    %
+% Email: danai@cs.cmu.edu                                                 %
+% Date: April 15, 2013                                                    %
+%                                                                         %
+% CITATION: Danai Koutra, Joshua T. Vogelstein, Christos Faloutsos.       %
+%           DELTACON: A Principled Massive-Graph Similarity Function.     %
+%           SDM 2013, Texas-Austin, USA                                   %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+======================= Problem Definition ===============================
+Given: two graphs on the same set of nodes, and different edge sets
+Find:  their similarity, i.e. a number in [0,1], 
+        where 0 means that the graphs are completely dissimilar, and 
+              1 means that they are identical.
+==========================================================================
+
+
+
+** OUTPUTS OF THE ALGORITHM: **
+>> DeltaCon similarity score, 
+>> the standard deviation of the DeltaCon score 
+      (non-zero for the approximate algorithm, DeltaCon, 
+	   0 for the exact algorithm, DeltaCon0)
+>> the runtime, as well as 
+>> the standard deviation of the time 
+	  (non-zero for the approximate algorithm, DeltaCon, 
+	   0 for the exact algorithm, DeltaCon0)
+
+
+
+** EXECUTING THE ALGORITHM: **
+To see a toy working example, do 
+	make demo
