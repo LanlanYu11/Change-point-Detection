@@ -1,0 +1,9 @@
+GHRG code. https://piratepeel.github.io/code.html
+
+@inproceedings{peel2015detecting,
+  title={Detecting Change Points in the Large-Scale Structure of Evolving Networks.},
+  author={Peel, Leto and Clauset, Aaron},
+  booktitle={AAAI},
+  pages={2914--2920},
+  year={2015}
+}
