@@ -1,0 +1,8 @@
+@inproceedings{koutra2013deltacon,
+  title={Deltacon: A principled massive-graph similarity function},
+  author={Koutra, Danai and Vogelstein, Joshua T and Faloutsos, Christos},
+  booktitle={Proceedings of the 2013 SIAM International Conference on Data Mining},
+  pages={162--170},
+  year={2013},
+  organization={SIAM}
+}
