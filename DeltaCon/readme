@@ -1,3 +1,5 @@
+DeltaCon code. http://web.eecs.umich.edu/~dkoutra/CODE/deltacon.zip
+detect change-point using changePointDetectionNew.m
 @inproceedings{koutra2013deltacon,
   title={Deltacon: A principled massive-graph similarity function},
   author={Koutra, Danai and Vogelstein, Joshua T and Faloutsos, Christos},
